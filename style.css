@@ -1,0 +1,109 @@
+:root {
+  --primary: #10B981;
+  --dark: #022522;
+  --white: #f8fafc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+  background-image: linear-gradient(to bottom right, #6EE7B7, #10B981, #047857);
+  overflow-x: hidden;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+section {
+  width: 100wh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 .5rem;
+}
+
+section .container {
+  width: 100%;
+  max-width: 326px;
+  background-color: var(--dark);
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  border: 2px solid var(--white);
+}
+
+section .container .container-display {
+  max-width: 100%;
+  min-height: 7rem;
+  border: 1px solid var(--primary);
+  background-color: #022022;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  word-break: break-all;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+section .container .container-display h3 {
+  font-size: 2rem;
+  color: white;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+
+
+
+section .container .container-numpad {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem .5rem;
+}
+
+section .container .container-numpad button {
+  width: 22%;
+  height: 4.5rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+  background-color: var(--primary);
+  color: var(--dark);
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  outline: 0;
+  border: 0;
+}
+
+section .container .container-numpad button.symbol {
+  background-color: #065F46;
+  color: var(--white);
+}
+
+section .container .container-numpad button#clear {
+  background-color: crimson;
+  color: var(--white);
+}
+
+section .container .container-numpad button:active {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
