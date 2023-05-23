@@ -9,11 +9,11 @@ const equal = document.getElementById("equal");
 const result = document.getElementById("result");
 const clear = document.getElementById("clear");
 
-number.forEach((res) =>
+number.forEach((res) => {
   res.addEventListener("click", () => {
     display.innerHTML += res.value;
-  })
-);
+  });
+});
 
 plus.addEventListener("click", () => {
   display.innerHTML += plus.textContent;

@@ -38,14 +38,14 @@ section .container {
 
 section .container .container-display {
   max-width: 100%;
-  min-height: 7rem;
+  min-height: 10rem;
   border: 1px solid var(--primary);
   background-color: #022022;
   padding: 0 1rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-end;
   word-break: break-all;
   border-radius: .5rem;
@@ -63,6 +63,7 @@ section .container .container-display h3 {
   line-height: 1.2;
   letter-spacing: 2px;
   text-align: justify;
+  direction: rtl;
 }
 
 
