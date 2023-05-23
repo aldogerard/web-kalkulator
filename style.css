@@ -63,7 +63,6 @@ section .container .container-display h3 {
   line-height: 1.2;
   letter-spacing: 2px;
   text-align: justify;
-  direction: rtl;
 }
 
 
