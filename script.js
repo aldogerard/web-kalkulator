@@ -32,8 +32,8 @@ equal.addEventListener("click", () => {
 });
 
 result.addEventListener("click", () => {
-  let res = display.textContent.replace("×", "*");
-  res = res.replace("÷", "/");
+  let res = display.textContent.replaceAll("×", "*");
+  res = res.replaceAll("÷", "/");
   display.innerHTML = eval(res);
 });
 
